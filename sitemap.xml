@@ -1,18 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://lygreen.github.io/zh-cn/sitemap.xml</loc>
-    
-      <lastmod>2025-01-02T23:46:46+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://lygreen.github.io/en/sitemap.xml</loc>
-    
-      <lastmod>2025-01-02T23:45:19+08:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://lygreen.github.io/</loc>
+  <lastmod>2025-01-03T14:54:54+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://lygreen.github.io/archives/</loc>
+  <lastmod>2025-01-03T14:54:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lygreen.github.io/%E9%93%BE%E6%8E%A5/</loc>
+  <lastmod>2025-01-03T14:54:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lygreen.github.io/%E5%85%B3%E4%BA%8E/</loc>
+  <lastmod>2025-01-03T14:54:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lygreen.github.io/categories/linux/</loc>
+  <lastmod>2025-01-03T14:54:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lygreen.github.io/tags/arch-linux/</loc>
+  <lastmod>2025-01-03T14:54:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lygreen.github.io/p/arch-linux-%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</loc>
+  <lastmod>2025-01-03T14:54:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lygreen.github.io/en/links/</loc>
+  <lastmod>2025-01-03T14:54:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lygreen.github.io/en/about/</loc>
+  <lastmod>2025-01-03T14:54:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lygreen.github.io/en/</loc>
+  <lastmod>2025-01-03T14:54:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://lygreen.github.io/en/archives/</loc>
+  <lastmod>2025-01-03T14:54:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
