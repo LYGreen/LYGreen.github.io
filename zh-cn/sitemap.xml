@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lygreen.github.io/post/</loc>
+    <lastmod>2025-01-04T18:39:46+08:00</lastmod>
+  </url><url>
     <loc>https://lygreen.github.io/categories/</loc>
     <lastmod>2025-01-04T13:16:47+08:00</lastmod>
     <xhtml:link
@@ -14,9 +17,6 @@
                 hreflang="zh-cn"
                 href="https://lygreen.github.io/categories/"
                 />
-  </url><url>
-    <loc>https://lygreen.github.io/post/</loc>
-    <lastmod>2025-01-04T13:16:47+08:00</lastmod>
   </url><url>
     <loc>https://lygreen.github.io/tags/</loc>
     <lastmod>2025-01-04T13:16:47+08:00</lastmod>
