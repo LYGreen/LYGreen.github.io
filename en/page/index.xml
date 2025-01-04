@@ -7,13 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>LYGreen</copyright>
-        <lastBuildDate>Thu, 02 Jan 2025 23:45:19 +0800</lastBuildDate><atom:link href="https://lygreen.github.io/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 04 Jan 2025 11:29:49 +0800</lastBuildDate><atom:link href="https://lygreen.github.io/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>About</title>
         <link>https://lygreen.github.io/en/about/</link>
         <pubDate>Thu, 02 Jan 2025 23:45:19 +0800</pubDate>
         
         <guid>https://lygreen.github.io/en/about/</guid>
-        <description>&lt;h3 id=&#34;thanks&#34;&gt;Thanks
+        <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h3&gt;&lt;p&gt;I&amp;rsquo;m a sh*t programmer, that&amp;rsquo;s all&lt;/p&gt;
+&lt;h3 id=&#34;thanks&#34;&gt;Thanks
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;%22https://gohugo.io/%22&#34; &gt;Hugo&lt;/a&gt;&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;%22https://github.com/CaiJimmy/hugo-theme-stack%22&#34; &gt;Hugo-Theme-Stack&lt;/a&gt;&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;%22https://pages.github.com/%22&#34; &gt;Github Pages&lt;/a&gt;&lt;/p&gt;

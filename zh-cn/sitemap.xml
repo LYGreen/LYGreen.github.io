@@ -2,21 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lygreen.github.io/</loc>
-    <lastmod>2025-01-02T23:46:46+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lygreen.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://lygreen.github.io/"
-                />
+    <loc>https://lygreen.github.io/post/</loc>
+    <lastmod>2025-01-04T11:00:21+08:00</lastmod>
   </url><url>
     <loc>https://lygreen.github.io/page/</loc>
-    <lastmod>2025-01-02T23:46:46+08:00</lastmod>
+    <lastmod>2025-01-04T11:22:17+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +19,7 @@
                 />
   </url><url>
     <loc>https://lygreen.github.io/%E5%85%B3%E4%BA%8E/</loc>
-    <lastmod>2025-01-02T23:46:46+08:00</lastmod>
+    <lastmod>2025-01-04T11:22:17+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,13 +32,13 @@
                 />
   </url><url>
     <loc>https://lygreen.github.io/tags/arch-linux/</loc>
-    <lastmod>2024-10-26T00:43:41+08:00</lastmod>
+    <lastmod>2025-01-04T11:00:21+08:00</lastmod>
   </url><url>
     <loc>https://lygreen.github.io/p/arch-linux-%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-10-26T00:43:41+08:00</lastmod>
+    <lastmod>2025-01-04T11:00:21+08:00</lastmod>
   </url><url>
     <loc>https://lygreen.github.io/categories/</loc>
-    <lastmod>2024-10-26T00:43:41+08:00</lastmod>
+    <lastmod>2025-01-04T11:00:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -61,13 +51,10 @@
                 />
   </url><url>
     <loc>https://lygreen.github.io/categories/linux/</loc>
-    <lastmod>2024-10-26T00:43:41+08:00</lastmod>
-  </url><url>
-    <loc>https://lygreen.github.io/post/</loc>
-    <lastmod>2024-10-26T00:43:41+08:00</lastmod>
+    <lastmod>2025-01-04T11:00:21+08:00</lastmod>
   </url><url>
     <loc>https://lygreen.github.io/tags/</loc>
-    <lastmod>2024-10-26T00:43:41+08:00</lastmod>
+    <lastmod>2025-01-04T11:00:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -80,7 +67,7 @@
                 />
   </url><url>
     <loc>https://lygreen.github.io/archives/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-03T15:20:14+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -92,7 +79,21 @@
                 href="https://lygreen.github.io/archives/"
                 />
   </url><url>
+    <loc>https://lygreen.github.io/</loc>
+    <lastmod>2025-01-02T23:39:04+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lygreen.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://lygreen.github.io/"
+                />
+  </url><url>
     <loc>https://lygreen.github.io/%E9%93%BE%E6%8E%A5/</loc>
+    <lastmod>2025-01-03T18:35:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
