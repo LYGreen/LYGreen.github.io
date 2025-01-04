@@ -56,7 +56,7 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;操作系统&#34;&gt;操作系统
 &lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;30天自制操作系统 (年代有点久远，跟着做可能会出现问题，如果出现问题的话上谷歌搜)&lt;/li&gt;
+&lt;li&gt;30天自制操作系统 &lt;code&gt;年代有点久远，跟着做可能会出现问题，如果出现问题的话上谷歌搜&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;操作系统真象还原&lt;/li&gt;
 &lt;li&gt;Orange&amp;rsquo;S 一个操作系统的实现&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://littleosbook.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

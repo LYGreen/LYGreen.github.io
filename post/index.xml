@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>LYGreen</copyright>
-        <lastBuildDate>Sat, 04 Jan 2025 12:53:46 +0800</lastBuildDate><atom:link href="https://lygreen.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 04 Jan 2025 12:57:10 +0800</lastBuildDate><atom:link href="https://lygreen.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>书籍推荐</title>
         <link>https://lygreen.github.io/p/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/</link>
         <pubDate>Sat, 04 Jan 2025 09:42:24 +0800</pubDate>
@@ -57,7 +57,7 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;操作系统&#34;&gt;操作系统
 &lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;30天自制操作系统 (年代有点久远，跟着做可能会出现问题，如果出现问题的话上谷歌搜)&lt;/li&gt;
+&lt;li&gt;30天自制操作系统 &lt;code&gt;年代有点久远，跟着做可能会出现问题，如果出现问题的话上谷歌搜&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;操作系统真象还原&lt;/li&gt;
 &lt;li&gt;Orange&amp;rsquo;S 一个操作系统的实现&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://littleosbook.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
