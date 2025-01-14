@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="这里是有关计算机的书籍推荐">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="OpenWrt 配置 WiFi 中继 连接需要中继的 wifi 去到Network -&gt; Wireless，点击 Scan 选择需要中继的 WiFi 网络，点击加入网络 WPA passphrase意思是要输入 wifi 密码 Lock to BSSID表示这个网络与 MAC 地址绑定，不用担心 wifi 重名问题 完成之后点击Submit 这里直接默认即可，点击Save 点击Save &amp; Apply，此时你的路由器已经连上了要中继的 wifi，并且电脑也可以上网了 开启当前路由器的 wifi 点击add 配置模式为Access Point，即网络接入点，或者是说当前路由器的 wifi，怎么样叫它都可以\nESSID也就是 wifi 名字\nNetwork表示当前配置属于哪个网络，选择 lan 网络，意思类似于，一台设备连上了这个 wifi 之后就相当于这个设备接到了这个路由器的 lan 口\n点击Save 接着来到Wireless Security，加密方式可以选择这个，设置一下 wifi 密码，点击Save 点击Save &amp; Apply 此时可以看到当前路由器的 wifi ">
 
 
-<link rel="icon" href="/icon/lygreen_icon.ico" type="image/x-icon" /><title>书籍推荐</title>
+<link rel="icon" href="/icon/lygreen_icon.ico" type="image/x-icon" /><title>Openwrt Wifi Setting</title>
 
-<link rel='canonical' href='https://lygreen.github.io/p/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/'>
+<link rel='canonical' href='http://localhost:1313/p/openwrt-wifi-setting/'>
 
-<link rel="stylesheet" href="/scss/style.min.7b24639cc9ed581a744678c9b90750fdbaad9b04056d31863ad86398fe5f90dc.css"><meta property='og:title' content="书籍推荐">
-<meta property='og:description' content="这里是有关计算机的书籍推荐">
-<meta property='og:url' content='https://lygreen.github.io/p/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/'>
+<link rel="stylesheet" href="/scss/style.min.7b24639cc9ed581a744678c9b90750fdbaad9b04056d31863ad86398fe5f90dc.css"><meta property='og:title' content="Openwrt Wifi Setting">
+<meta property='og:description' content="OpenWrt 配置 WiFi 中继 连接需要中继的 wifi 去到Network -&gt; Wireless，点击 Scan 选择需要中继的 WiFi 网络，点击加入网络 WPA passphrase意思是要输入 wifi 密码 Lock to BSSID表示这个网络与 MAC 地址绑定，不用担心 wifi 重名问题 完成之后点击Submit 这里直接默认即可，点击Save 点击Save &amp; Apply，此时你的路由器已经连上了要中继的 wifi，并且电脑也可以上网了 开启当前路由器的 wifi 点击add 配置模式为Access Point，即网络接入点，或者是说当前路由器的 wifi，怎么样叫它都可以\nESSID也就是 wifi 名字\nNetwork表示当前配置属于哪个网络，选择 lan 网络，意思类似于，一台设备连上了这个 wifi 之后就相当于这个设备接到了这个路由器的 lan 口\n点击Save 接着来到Wireless Security，加密方式可以选择这个，设置一下 wifi 密码，点击Save 点击Save &amp; Apply 此时可以看到当前路由器的 wifi ">
+<meta property='og:url' content='http://localhost:1313/p/openwrt-wifi-setting/'>
 <meta property='og:site_name' content='LYGreen'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='书籍推荐' /><meta property='article:tag' content='视频推荐' /><meta property='article:tag' content='网页推荐' /><meta property='article:published_time' content='2025-01-04T09:42:24&#43;08:00'/><meta property='article:modified_time' content='2025-01-04T13:16:47&#43;08:00'/>
-<meta name="twitter:title" content="书籍推荐">
-<meta name="twitter:description" content="这里是有关计算机的书籍推荐">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='OpenWrt' /><meta property='article:published_time' content='2025-01-14T15:49:34&#43;08:00'/><meta property='article:modified_time' content='2025-01-14T16:44:23&#43;08:00'/>
+<meta name="twitter:title" content="Openwrt Wifi Setting">
+<meta name="twitter:description" content="OpenWrt 配置 WiFi 中继 连接需要中继的 wifi 去到Network -&gt; Wireless，点击 Scan 选择需要中继的 WiFi 网络，点击加入网络 WPA passphrase意思是要输入 wifi 密码 Lock to BSSID表示这个网络与 MAC 地址绑定，不用担心 wifi 重名问题 完成之后点击Submit 这里直接默认即可，点击Save 点击Save &amp; Apply，此时你的路由器已经连上了要中继的 wifi，并且电脑也可以上网了 开启当前路由器的 wifi 点击add 配置模式为Access Point，即网络接入点，或者是说当前路由器的 wifi，怎么样叫它都可以\nESSID也就是 wifi 名字\nNetwork表示当前配置属于哪个网络，选择 lan 网络，意思类似于，一台设备连上了这个 wifi 之后就相当于这个设备接到了这个路由器的 lan 口\n点击Save 接着来到Wireless Security，加密方式可以选择这个，设置一下 wifi 密码，点击Save 点击Save &amp; Apply 此时可以看到当前路由器的 wifi ">
     </head>
     <body class="
     article-page
@@ -188,9 +188,9 @@
 
                             <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
                                 
-                                    <option value="https://lygreen.github.io/" selected>中文</option>
+                                    <option value="http://localhost:1313/" selected>中文</option>
                                 
-                                    <option value="https://lygreen.github.io/en/" >English</option>
+                                    <option value="http://localhost:1313/en/" >English</option>
                                 
                             </select>
                         </li>
@@ -245,25 +245,12 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#前言">前言</a></li>
-    <li><a href="#cc-语言">C/C++ 语言</a></li>
-    <li><a href="#c">C#</a></li>
-    <li><a href="#python">Python</a></li>
-    <li><a href="#git">Git</a></li>
-    <li><a href="#markdown">Markdown</a></li>
-    <li><a href="#htmljavascriptcss">HTML/Javascript/CSS</a></li>
-    <li><a href="#汇编语言">汇编语言</a></li>
-    <li><a href="#算法">算法</a></li>
-    <li><a href="#操作系统">操作系统</a></li>
-    <li><a href="#数据库">数据库</a></li>
-    <li><a href="#机器学习">机器学习</a></li>
-    <li><a href="#计算机网络">计算机网络</a></li>
-    <li><a href="#数学">数学</a></li>
-    <li><a href="#物理">物理</a></li>
-    <li><a href="#模拟电路">模拟电路</a></li>
-    <li><a href="#数字电路">数字电路</a></li>
-    <li><a href="#想说的话">想说的话</a></li>
-    <li><a href="#其他">其他</a></li>
+    <li><a href="#openwrt-配置-wifi-中继">OpenWrt 配置 WiFi 中继</a>
+      <ol>
+        <li><a href="#连接需要中继的-wifi">连接需要中继的 wifi</a></li>
+        <li><a href="#开启当前路由器的-wifi">开启当前路由器的 wifi</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
         </div>
@@ -291,13 +278,9 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/">书籍推荐</a>
+            <a href="/p/openwrt-wifi-setting/">Openwrt Wifi Setting</a>
         </h2>
     
-        
-        <h3 class="article-subtitle">
-            这里是有关计算机的书籍推荐
-        </h3>
         
     </div>
 
@@ -319,7 +302,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jan 04, 2025</time>
+                <time class="article-time--published">Jan 14, 2025</time>
             </div>
         
 
@@ -340,7 +323,7 @@
                         最后更新于
                     </div>
                     <div>
-                        2025/1/4
+                        2025/1/14
                     </div>
                 </time>
             </div>
@@ -372,88 +355,104 @@
     <section class="article-content">
     
     
-    <h2 id="前言">前言
-</h2><p>根据网络、朋友还有我看过的书/视频进行推荐，反正我找书也是找网上的推荐，我甚至还找 ChatGPT 推荐，就当作是收藏了，有些书籍因为我还没开始学所以我没有推荐，大部分书名我都可以给出来，可以去谷歌上搜，部分网站的我可以贴个链接</p>
-<hr>
-<h2 id="cc-语言">C/C++ 语言
-</h2><p>暂时没有因为我一开始学 C/C++ 语言是看 B 站视频的所以我基本没看过有关 C 语言的书所以我根据网络搜素到的进行推荐</p>
-<ol>
-<li>C Primer Plus <code>网上推荐</code></li>
-<li>啊哈C语言 <code>网上推荐</code></li>
-<li>深入理解C指针(Understanding And Using C Pointers)</li>
-<li>这是我好几年前学C/C++看的 <a class="link" href="https://www.bilibili.com/video/BV1zt411e7uP/?spm_id_from=333.999.0.0&amp;vd_source=4fe70bc90b3c86ea53adef63b7e185c3"  target="_blank" rel="noopener"
-    >视频</a> ，有点老，我也不知道我当时是怎么看下去的不过没关系我现在是个废物</li>
-</ol>
-<h2 id="c">C#
-</h2><p>基础：<code>基础语法学了C/C++之后用用就会了</code><br>
-深入：NET CLR via C# <code>这个比较难懂一般要刷好几遍</code></p>
-<h2 id="python">Python
-</h2><p><code>用用就会了</code></p>
-<h2 id="git">Git
-</h2><p><code>有不会的直接问 ChatGPT</code></p>
-<h2 id="markdown">Markdown
-</h2><ol>
-<li><a class="link" href="https://markdown.com.cn/"  target="_blank" rel="noopener"
-    >Markdown 教程</a></li>
-</ol>
-<h2 id="htmljavascriptcss">HTML/Javascript/CSS
-</h2><ol>
-<li>菜鸟教程 <code>不是书，是网页</code> (<a class="link" href="https://www.runoob.com/html/html-tutorial.html"  target="_blank" rel="noopener"
-    >HTML</a>，<a class="link" href="https://www.runoob.com/js/js-tutorial.html"  target="_blank" rel="noopener"
-    >Javascript</a>，<a class="link" href="https://www.runoob.com/htmldom/htmldom-tutorial.html"  target="_blank" rel="noopener"
-    >HTML DOM</a>，<a class="link" href="https://www.runoob.com/css/css-tutorial.html"  target="_blank" rel="noopener"
-    >CSS</a>)</li>
-</ol>
-<h2 id="汇编语言">汇编语言
-</h2><ol>
-<li>汇编语言(王爽) <code>网上推荐</code></li>
-</ol>
-<h2 id="算法">算法
-</h2><ol>
-<li><a class="link" href="https://www.hello-algo.com/"  target="_blank" rel="noopener"
-    >Hello algo</a> (<a class="link" href="https://github.com/krahets/hello-algo"  target="_blank" rel="noopener"
-    >Github</a>)</li>
-</ol>
-<h2 id="操作系统">操作系统
-</h2><ol>
-<li>30天自制操作系统 <code>年代有点久远，跟着做可能会出现问题，如果出现问题的话上谷歌搜</code></li>
-<li>操作系统真象还原</li>
-<li>Orange&rsquo;S 一个操作系统的实现</li>
-<li><a class="link" href="https://littleosbook.github.io/"  target="_blank" rel="noopener"
-    >The little book about OS development</a></li>
-<li><a class="link" href="https://pages.cs.wisc.edu/~remzi/OSTEP/"  target="_blank" rel="noopener"
-    >Operating Systems: Three Easy Pieces</a></li>
-<li><a class="link" href="https://wiki.osdev.org/Expanded_Main_Page"  target="_blank" rel="noopener"
-    >OSDev</a></li>
-</ol>
-<h2 id="数据库">数据库
-</h2><p><code>暂时没学</code></p>
-<h2 id="机器学习">机器学习
-</h2><p><code>暂时没学</code></p>
-<h2 id="计算机网络">计算机网络
-</h2><p><code>没有</code></p>
-<h2 id="数学">数学
-</h2><ol>
-<li>普林斯顿微积分读本</li>
-<li>程序员的数学3：线性代数</li>
-<li>微积分之屠龙宝刀</li>
-<li>微积分之倚天宝剑</li>
-<li>3D数学基础：图形和游戏开发</li>
-</ol>
-<h2 id="物理">物理
-</h2><ol>
-<li>耶鲁大学开放课程：基础物理 力学、相对论和热力学 <code>朋友推荐</code></li>
-<li>耶鲁大学开放课程 基础物理2 电磁学 光学和量子力学 <code>朋友推荐</code></li>
-</ol>
-<h2 id="模拟电路">模拟电路
-</h2><p><code>没有，我上大学才学</code></p>
-<h2 id="数字电路">数字电路
-</h2><p><code>没有，也是大学才学</code></p>
-<hr>
-<h2 id="想说的话">想说的话
-</h2><p>我目前学得就这么多而且学得也不深不得不说我是真的废物中的废物</p>
-<h2 id="其他">其他
-</h2><p>不要嫌我不打标点符号因为我已经疯了我不想打</p>
+    <h2 id="openwrt-配置-wifi-中继">OpenWrt 配置 WiFi 中继
+</h2><h3 id="连接需要中继的-wifi">连接需要中继的 wifi
+</h3><p>去到<code>Network -&gt; Wireless</code>，点击 <code>Scan</code>
+<img src="/img-openwrt-wifi-setting/img0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>选择需要中继的 WiFi 网络，点击加入网络
+<img src="/img-openwrt-wifi-setting/img1.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><code>WPA passphrase</code>意思是要输入 wifi 密码
+<code>Lock to BSSID</code>表示这个网络与 MAC 地址绑定，不用担心 wifi 重名问题
+完成之后点击<code>Submit</code>
+<img src="/img-openwrt-wifi-setting/img2.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>这里直接默认即可，点击<code>Save</code>
+<img src="/img-openwrt-wifi-setting/img3.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>点击<code>Save &amp; Apply</code>，此时你的路由器已经连上了要中继的 wifi，并且电脑也可以上网了
+<img src="/img-openwrt-wifi-setting/img4.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="开启当前路由器的-wifi">开启当前路由器的 wifi
+</h3><p>点击<code>add</code>
+<img src="/img-openwrt-wifi-setting/img5.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>配置模式为<code>Access Point</code>，即网络接入点，或者是说当前路由器的 wifi，怎么样叫它都可以<br>
+<code>ESSID</code>也就是 wifi 名字<br>
+<code>Network</code>表示当前配置属于哪个网络，选择 lan 网络，意思类似于，一台设备连上了这个 wifi 之后就相当于这个设备接到了这个路由器的 lan 口<br>
+点击<code>Save</code>
+<img src="/img-openwrt-wifi-setting/img6.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>接着来到<code>Wireless Security</code>，加密方式可以选择这个，设置一下 wifi 密码，点击<code>Save</code>
+<img src="/img-openwrt-wifi-setting/img7.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>点击<code>Save &amp; Apply</code>
+<img src="/img-openwrt-wifi-setting/img8.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>此时可以看到当前路由器的 wifi
+<img src="/img-openwrt-wifi-setting/img9.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
 
 </section>
 
@@ -462,11 +461,7 @@
     
     <section class="article-tags">
         
-            <a href="/tags/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/">书籍推荐</a>
-        
-            <a href="/tags/%E8%A7%86%E9%A2%91%E6%8E%A8%E8%8D%90/">视频推荐</a>
-        
-            <a href="/tags/%E7%BD%91%E9%A1%B5%E6%8E%A8%E8%8D%90/">网页推荐</a>
+            <a href="/tags/openwrt/">OpenWrt</a>
         
     </section>
 
@@ -493,7 +488,7 @@
 
 
         <span>
-            最后更新于 Jan 04, 2025 13:16 CST
+            最后更新于 Jan 14, 2025 16:44 CST
         </span>
     </section></footer>
 
@@ -512,12 +507,12 @@
             
                 
 <article class="">
-    <a href="/p/openwrt-%E9%85%8D%E7%BD%AE-wifi-%E4%B8%AD%E7%BB%A7/">
+    <a href="/p/hugo-%E5%88%9B%E5%BB%BA%E7%BD%91%E7%AB%99%E6%95%99%E7%A8%8B/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">OpenWrt 配置 WiFi 中继</h2>
+            <h2 class="article-title">Hugo 创建网站教程</h2>
         </div>
     </a>
 </article>
@@ -525,12 +520,12 @@
             
                 
 <article class="">
-    <a href="/p/hugo-%E5%88%9B%E5%BB%BA%E7%BD%91%E7%AB%99%E6%95%99%E7%A8%8B/">
+    <a href="/p/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Hugo 创建网站教程</h2>
+            <h2 class="article-title">书籍推荐</h2>
         </div>
     </a>
 </article>
@@ -705,7 +700,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.071bb8d5a095dfb9cd1cd6c6075c84bb145f5efdc53fea94ffac0f0f2ea2f696.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

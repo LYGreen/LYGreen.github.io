@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head>
-	<meta name="generator" content="Hugo 0.140.2"><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="我不管，如果你讨厌我，我会拿着板凳砸向你的头">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="OpenWrt 连接其他 WiFi，然后这个路由器再自己发射出一个 WiFi 信号">
 
 
-<link rel="icon" href="/icon/lygreen_icon.ico" type="image/x-icon" /><title>LYGreen 的博客</title>
+<link rel="icon" href="/icon/lygreen_icon.ico" type="image/x-icon" /><title>OpenWrt 配置 WiFi 中继</title>
 
-<link rel='canonical' href='https://lygreen.github.io/'>
+<link rel='canonical' href='https://lygreen.github.io/p/openwrt-%E9%85%8D%E7%BD%AE-wifi-%E4%B8%AD%E7%BB%A7/'>
 
-<link rel="stylesheet" href="/scss/style.min.7b24639cc9ed581a744678c9b90750fdbaad9b04056d31863ad86398fe5f90dc.css"><meta property='og:title' content="LYGreen 的博客">
-<meta property='og:description' content="我不管，如果你讨厌我，我会拿着板凳砸向你的头">
-<meta property='og:url' content='https://lygreen.github.io/'>
+<link rel="stylesheet" href="/scss/style.min.7b24639cc9ed581a744678c9b90750fdbaad9b04056d31863ad86398fe5f90dc.css"><meta property='og:title' content="OpenWrt 配置 WiFi 中继">
+<meta property='og:description' content="OpenWrt 连接其他 WiFi，然后这个路由器再自己发射出一个 WiFi 信号">
+<meta property='og:url' content='https://lygreen.github.io/p/openwrt-%E9%85%8D%E7%BD%AE-wifi-%E4%B8%AD%E7%BB%A7/'>
 <meta property='og:site_name' content='LYGreen'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-01-14T16:54:13&#43;08:00 '/>
-<meta name="twitter:title" content="LYGreen 的博客">
-<meta name="twitter:description" content="我不管，如果你讨厌我，我会拿着板凳砸向你的头"><link rel="alternate" type="application/rss&#43;xml" href="https://lygreen.github.io/index.xml">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='OpenWrt' /><meta property='article:published_time' content='2025-01-14T15:49:34&#43;08:00'/><meta property='article:modified_time' content='2025-01-14T16:54:13&#43;08:00'/>
+<meta name="twitter:title" content="OpenWrt 配置 WiFi 中继">
+<meta name="twitter:description" content="OpenWrt 连接其他 WiFi，然后这个路由器再自己发射出一个 WiFi 信号">
     </head>
-    <body class="">
+    <body class="
+    article-page
+    ">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -93,7 +94,7 @@
         
         
         
-        <li  class='current' >
+        <li >
             <a href='/' >
                 
                 
@@ -226,52 +227,9 @@
         
             
                 
-            
-        
-            
-                <section class="widget archives">
+    <section class="widget archives">
         <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
-</svg>
-
-
-
-        </div>
-        <h2 class="widget-title section-title">归档</h2>
-
-        
-        
-        
-        
-        
-        <div class="widget-archive--list">
-            <div class="archives-year">
-                    <a href="/archives/#2025">
-                        
-                            <span class="year">2025</span>
-                            <span class="count">3</span>
-                        
-                    </a> 
-                </div>
-            <div class="archives-year">
-                    <a href="/archives/#2024">
-                        
-                            <span class="year">2024</span>
-                            <span class="count">1</span>
-                        
-                    </a> 
-                </div>
-            
-        </div>
-    </section>
-            
-        
-            
-                <section class="widget tagCloud">
-    <div class="widget-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <line x1="5" y1="9" x2="19" y2="9" />
   <line x1="5" y1="15" x2="19" y2="15" />
@@ -281,81 +239,31 @@
 
 
 
-    </div>
-    <h2 class="widget-title section-title">分类</h2>
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#openwrt-配置-wifi-中继">OpenWrt 配置 WiFi 中继</a>
+      <ol>
+        <li><a href="#连接需要中继的-wifi">连接需要中继的 wifi</a></li>
+        <li><a href="#开启当前路由器的-wifi">开启当前路由器的 wifi</a></li>
+      </ol>
+    </li>
+    <li><a href="#参考">参考</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
 
-    <div class="tagCloud-tags">
-        
-            <a href="/categories/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/" class="font_size_3">
-                知识分享
-            </a>
-        
-            <a href="/categories/linux/" class="font_size_1">
-                Linux
-            </a>
-        
-    </div>
-</section>
-
-            
-        
-            
-                <section class="widget tagCloud">
-    <div class="widget-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-    </div>
-    <h2 class="widget-title section-title">标签云</h2>
-
-    <div class="tagCloud-tags">
-        
-            <a href="/tags/arch-linux/" class="font_size_1">
-                Arch Linux
-            </a>
-        
-            <a href="/tags/hugo/" class="font_size_1">
-                Hugo
-            </a>
-        
-            <a href="/tags/openwrt/" class="font_size_1">
-                OpenWrt
-            </a>
-        
-            <a href="/tags/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/" class="font_size_1">
-                书籍推荐
-            </a>
-        
-            <a href="/tags/%E7%BD%91%E9%A1%B5%E6%8E%A8%E8%8D%90/" class="font_size_1">
-                网页推荐
-            </a>
-        
-            <a href="/tags/%E8%A7%86%E9%A2%91%E6%8E%A8%E8%8D%90/" class="font_size_1">
-                视频推荐
-            </a>
-        
-    </div>
-</section>
             
         
     </aside>
 
 
             <main class="main full-width">
-    
-    
-    
-    
-
-    <section class="article-list">
-        
-            
-<article class="">
+    <article class="main-article">
     <header class="article-header">
 
     <div class="article-details">
@@ -448,217 +356,261 @@
 </div>
 
 </header>
-</article>
-        
-            
-<article class="">
-    <header class="article-header">
 
-    <div class="article-details">
-    
-    <header class="article-category">
-        
-            <a href="/categories/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/" >
-                知识分享
-            </a>
-        
-    </header>
-    
-
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="/p/hugo-%E5%88%9B%E5%BB%BA%E7%BD%91%E7%AB%99%E6%95%99%E7%A8%8B/">Hugo 创建网站教程</a>
-        </h2>
-    
-        
-        <h3 class="article-subtitle">
-            使用 Hugo 创建自己的网站
-        </h3>
-        
-    </div>
-
+    <section class="article-content">
     
     
+    <h2 id="openwrt-配置-wifi-中继">OpenWrt 配置 WiFi 中继
+</h2><h3 id="连接需要中继的-wifi">连接需要中继的 wifi
+</h3><p>去到<code>Network -&gt; Wireless</code>，点击 <code>Scan</code>
+<img src="/img-openwrt-wifi-setting/img0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>选择需要中继的 WiFi 网络，点击加入网络
+<img src="/img-openwrt-wifi-setting/img1.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><code>WPA passphrase</code>意思是要输入 wifi 密码<br>
+<code>Lock to BSSID</code>表示这个网络与 MAC 地址绑定，不用担心 wifi 重名问题<br>
+完成之后点击<code>Submit</code>
+<img src="/img-openwrt-wifi-setting/img2.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>这里直接默认即可，点击<code>Save</code>
+<img src="/img-openwrt-wifi-setting/img3.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>点击<code>Save &amp; Apply</code>，此时你的路由器已经连上了要中继的 wifi，并且电脑也可以上网了
+<img src="/img-openwrt-wifi-setting/img4.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="开启当前路由器的-wifi">开启当前路由器的 wifi
+</h3><p>点击<code>add</code>
+<img src="/img-openwrt-wifi-setting/img5.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>配置模式为<code>Access Point</code>，即网络接入点，或者是说当前路由器的 wifi，怎么样叫它都可以<br>
+<code>ESSID</code>也就是 wifi 名字<br>
+<code>Network</code>表示当前配置属于哪个网络，选择 lan 网络，意思类似于，一台设备连上了这个 wifi 之后就相当于这个设备接到了这个路由器的 lan 口<br>
+点击<code>Save</code>
+<img src="/img-openwrt-wifi-setting/img6.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>接着来到<code>Wireless Security</code>，加密方式可以选择这个，设置一下 wifi 密码，点击<code>Save</code>
+<img src="/img-openwrt-wifi-setting/img7.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>点击<code>Save &amp; Apply</code>
+<img src="/img-openwrt-wifi-setting/img8.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>此时可以看到当前路由器的 wifi<br>
+<img src="/img-openwrt-wifi-setting/img9.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h2 id="参考">参考
+</h2><p><a class="link" href="https://iyzm.net/openwrt/512.html"  target="_blank" rel="noopener"
+    >进阶教程之 OpenWrt 无线中继配置指南</a></p>
+
+</section>
+
+
+    <footer class="article-footer">
     
-    
-
-    
-    <footer class="article-time">
+    <section class="article-tags">
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                <time class="article-time--published">Jan 04, 2025</time>
-            </div>
-        
-
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                <time class = "article-time--lastmod">
-                    <div>
-                        
-                        最后更新于
-                    </div>
-                    <div>
-                        2025/1/5
-                    </div>
-                </time>
-            </div>
-        
-
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                <time class="article-time--reading">
-                    阅读时长: 3 分钟
-                </time>
-            </div>
-        
-    </footer>
-    
-
-    
-</div>
-
-</header>
-</article>
-        
-            
-<article class="">
-    <header class="article-header">
-
-    <div class="article-details">
-    
-    <header class="article-category">
-        
-            <a href="/categories/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/" >
-                知识分享
-            </a>
-        
-    </header>
-    
-
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="/p/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/">书籍推荐</a>
-        </h2>
-    
-        
-        <h3 class="article-subtitle">
-            这里是有关计算机的书籍推荐
-        </h3>
-        
-    </div>
-
-    
-    
-    
-    
-
-    
-    <footer class="article-time">
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                <time class="article-time--published">Jan 04, 2025</time>
-            </div>
-        
-
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                <time class = "article-time--lastmod">
-                    <div>
-                        
-                        最后更新于
-                    </div>
-                    <div>
-                        2025/1/4
-                    </div>
-                </time>
-            </div>
-        
-
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                <time class="article-time--reading">
-                    阅读时长: 1 分钟
-                </time>
-            </div>
-        
-    </footer>
-    
-
-    
-</div>
-
-</header>
-</article>
+            <a href="/tags/openwrt/">OpenWrt</a>
         
     </section>
-    <nav class='pagination'>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 Jan 14, 2025 16:54 CST
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/hugo-%E5%88%9B%E5%BB%BA%E7%BD%91%E7%AB%99%E6%95%99%E7%A8%8B/">
         
         
 
-        
-            
-                <span class='page-link current'>1</span>
-                
-            
-            
-                    <a class='page-link' href='/page/2/'>2</a>
-                
-            
-    </nav>
+        <div class="article-details">
+            <h2 class="article-title">Hugo 创建网站教程</h2>
+        </div>
+    </a>
+</article>
 
-<footer class="site-footer">
+            
+                
+<article class="">
+    <a href="/p/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">书籍推荐</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+<script
+    src="https://giscus.app/client.js"
+    data-repo="LYGreen/lygreen.github.io"
+    data-repo-id="R_kgDONlSrmg"
+    data-category="Article discussions"
+    data-category-id="DIC_kwDONlSrms4Cluui"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    
+    
+    
+    
+        
+        
+        
+    
+    data-lang="zh-CN"
+
+    data-loading=""
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
     <section class="copyright">
         &copy; 
         
@@ -670,6 +622,85 @@
         主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
 
             </main>
         </div>
